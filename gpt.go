@@ -27,6 +27,20 @@ func init() {
 	flag.StringVar(&username, "username", "yangwenmai", "your Github username")
 }
 
+// AllFiles 文件清单
+func AllFiles() []string {
+	files := []string{
+		// "docs/wiki.md",
+		"README.md",
+		"example.go",
+		"example_test.go",
+		".gitignore",
+		".travis.yml",
+		"LICENSE",
+	}
+	return files
+}
+
 // GenFiles 根据模板生成内容
 func GenFiles(files []string, startTime time.Time) {
 	var wg sync.WaitGroup
@@ -65,19 +79,6 @@ func templateExecute(bs []byte, n string) {
 		log.Fatal(err)
 	}
 	f.Close()
-}
-
-func AllFiles() []string {
-	files := []string{
-		// "docs/wiki.md",
-		"README.md",
-		"example.go",
-		"example_test.go",
-		".gitignore",
-		".travis.yml",
-		"LICENSE",
-	}
-	return files
 }
 
 func main() {
