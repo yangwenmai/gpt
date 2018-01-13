@@ -12,15 +12,19 @@ import (
 
 var (
 	// startTime time.Time
-	appName string
-	files   = []string{}
-	model   = map[string]interface{}{
-		"Name": "",
+	appName  string
+	username string
+
+	files = []string{}
+	model = map[string]interface{}{
+		"Name":     "",
+		"Username": "",
 	}
 )
 
 func init() {
 	flag.StringVar(&appName, "name", "gpt", "your app name")
+	flag.StringVar(&username, "username", "yangwenmai", "your Github username")
 }
 
 // GenFiles 根据模板生成内容
@@ -80,6 +84,7 @@ func main() {
 
 	flag.Parse()
 	model["Name"] = appName
+	model["Username"] = username
 
 	GenFiles(AllFiles(), startTime)
 }
