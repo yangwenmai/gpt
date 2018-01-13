@@ -75,6 +75,7 @@ func AllFiles() []string {
 		"example_test.go",
 		".gitignore",
 		".travis.yml",
+		"LICENSE",
 	}
 	return files
 }
