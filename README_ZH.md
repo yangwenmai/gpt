@@ -15,6 +15,16 @@
 
 [![Stargazers over time](https://starcharts.herokuapp.com/yangwenmai/gpt.svg)](https://starcharts.herokuapp.com/yangwenmai/gpt)
 
+## 安装
+
+```shell
+go install
+```
+
+## 用法
+
+`gpt -name=xxx -username=your-github-username`
+
 # 参考资料
 
 1. [https://github.com/yangwenmai/how-to-add-badge-in-github-readme](https://github.com/yangwenmai/how-to-add-badge-in-github-readme)
