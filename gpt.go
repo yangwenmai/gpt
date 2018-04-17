@@ -32,6 +32,7 @@ func AllFiles() []string {
 	files := []string{
 		// "docs/wiki.md",
 		"README.md",
+		"README_ZH.md",
 		"example.go",
 		"example_test.go",
 		".gitignore",
