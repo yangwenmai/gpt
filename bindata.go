@@ -4,6 +4,7 @@
 // template/.travis.yml
 // template/LICENSE
 // template/README.md
+// template/README_ZH.md
 // template/docs/.DS_Store
 // template/docs/wiki.md
 // template/example.go
@@ -177,7 +178,7 @@ func TravisYml() (*asset, error) {
 	return a, nil
 }
 
-var _license = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\x5c\x51\xcd\x8e\xdb\x36\x10\xbe\xf3\x29\x3e\xec\x29\x01\x84\xed\xcf\xa5\x40\x6f\x5c\x89\xb6\x88\xca\xa4\x41\xd1\x71\x7d\x94\x25\x7a\xc5\x42\x26\x0d\x91\xee\xc2\x08\xf2\xee\xc5\xc8\xde\xa4\x9b\x93\x20\xce\x7c\xbf\xb3\x91\x16\x8d\xef\x5d\x48\x8e\xb1\x32\x5e\x6e\xb3\x7f\x1d\x33\x3e\xf5\x9f\xf1\xfb\xaf\xbf\xfd\x81\xaf\x5f\x9f\x77\xc9\xcd\xa1\x3b\xbb\x6f\xdf\x18\xdb\xba\xf9\xec\x53\xf2\x31\xc0\x27\x8c\x6e\x76\xc7\x1b\x5e\xe7\x2e\x64\x37\x14\x38\xcd\xce\x21\x9e\xd0\x8f\xdd\xfc\xea\x0a\xe4\x88\x2e\xdc\x70\x71\x73\x8a\x01\xf1\x98\x3b\x1f\x7c\x78\x45\x87\x3e\x5e\x6e\x2c\x9e\x90\x47\x9f\x90\xe2\x29\xbf\x75\xb3\x43\x17\x06\x74\x29\xc5\xde\x77\xd9\x0d\x18\x62\x7f\x3d\xbb\x90\xbb\x4c\x7a\x27\x3f\xb9\x84\x4f\x79\x74\x78\x6a\x1f\x88\xa7\xcf\x8b\xc8\xe0\xba\x89\xf9\x00\x9a\xbd\x8f\xf0\xe6\xf3\x18\xaf\x19\xb3\x4b\x79\xf6\x3d\x71\x14\xf0\xa1\x9f\xae\x03\x79\x78\x1f\x4f\xfe\xec\x1f\x0a\x04\x5f\xe2\x27\x96\x23\xae\xc9\x15\x8b\xcf\x02\xe7\x38\xf8\x13\x7d\xdd\x12\xeb\x72\x3d\x4e\x3e\x8d\x05\x06\x4f\xd4\xc7\x6b\x76\x05\x12\x3d\x2e\x3d\x16\x94\xe3\x97\x38\x23\xb9\x69\x62\x7d\xbc\x78\x97\xb0\x64\xfd\xe1\x6e\xd9\x21\xeb\x17\x2a\x34\x3f\x2a\x4a\xf4\xf2\x36\xc6\xf3\xc7\x24\x3e\xb1\xd3\x75\x0e\x3e\x8d\x6e\xc1\x0c\x11\x29\x2e\x8a\xff\xb8\x3e\xd3\x0b\xad\x9f\xe2\x34\xc5\x37\x8a\xd6\xc7\x30\x78\x4a\x94\xfe\x64\xcc\x8e\x0e\xdd\x31\xfe\xeb\x96\x2c\xf7\xeb\x86\x98\x7d\x7f\xaf\x7b\x39\xc0\xe5\xc7\x55\x1f\xa3\x34\x76\xd3\x84\xa3\x7b\x14\xe6\x06\xf8\x80\xee\x7f\x71\x66\x92\x4f\xb9\x0b\xd9\x77\x13\x2e\x71\x5e\xf4\x7e\x8e\xf9\xcc\x98\xad\x05\x5a\xbd\xb2\x7b\x6e\x04\x64\x8b\xad\xd1\x5f\x64\x25\x2a\x3c\xf1\x16\xb2\x7d\x2a\xb0\x97\xb6\xd6\x3b\x8b\x3d\x37\x86\x2b\x7b\x80\x5e\x81\xab\x03\xfe\x92\xaa\x2a\x20\xfe\xde\x1a\xd1\xb6\xd0\x86\xc9\xcd\xb6\x91\xa2\x2a\x20\x55\xd9\xec\x2a\xa9\xd6\x78\xd9\x59\x28\x6d\xd1\xc8\x8d\xb4\xa2\x82\xd5\x20\xc1\x07\x95\x14\x2d\x91\x6d\x84\x29\x6b\xae\x2c\x7f\x91\x8d\xb4\x87\x82\xad\xa4\x55\xc4\xb9\xd2\x06\x1c\x5b\x6e\xac\x2c\x77\x0d\x37\xd8\xee\xcc\x56\xb7\x02\x5c\x55\x50\x5a\x49\xb5\x32\x52\xad\xc5\x46\x28\xfb\x0c\xa9\xa0\x34\xc4\x17\xa1\x2c\xda\x9a\x37\x0d\x49\x31\xbe\xb3\xb5\x36\xe4\x0f\xa5\xde\x1e\x8c\x5c\xd7\x16\xb5\x6e\x2a\x61\x5a\xbc\x08\x34\x92\xbf\x34\xe2\x2e\xa5\x0e\x28\x1b\x2e\x37\x05\x2a\xbe\xe1\x6b\xb1\xa0\xb4\xad\x85\x61\xb4\x76\x77\x87\x7d\x2d\xe8\x89\xf4\xb8\x02\x2f\xad\xd4\x8a\x62\x94\x5a\x59\xc3\x4b\x5b\xc0\x6a\x63\xbf\x43\xf7\xb2\x15\x05\xb8\x91\x2d\x15\xb2\x32\x7a\x53\x30\xaa\x53\xaf\x68\x45\x2a\xc2\x29\x71\x67\xa1\xaa\xf1\xe1\x22\xda\x2c\xff\xbb\x56\x7c\x27\x44\x25\x78\x23\xd5\xba\x25\x30\x45\x7c\x5f\x7e\x66\xff\x05\x00\x00\xff\xff\xed\x87\x82\x45\x2e\x04\x00\x00")
+var _license = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\x5c\x51\xcd\x8e\xdb\x36\x10\xbe\xf3\x29\x3e\xec\x29\x01\x84\xed\xcf\xa9\xe8\x8d\x2b\xd1\x16\x51\x99\x34\x28\x3a\xae\x8f\xb2\x44\xaf\x58\xc8\xa4\x21\xd2\x5d\x18\x41\xde\xbd\x18\xd9\x9b\x74\x73\x12\xc4\x99\xef\x77\x36\xd2\xa2\xf1\xbd\x0b\xc9\x31\x56\xc6\xcb\x6d\xf6\xaf\x63\xc6\xa7\xfe\x33\x7e\xff\xf5\xb7\x3f\xf0\xf5\xeb\xf3\x2e\xb9\x39\x74\x67\xf7\xed\x1b\x63\x5b\x37\x9f\x7d\x4a\x3e\x06\xf8\x84\xd1\xcd\xee\x78\xc3\xeb\xdc\x85\xec\x86\x02\xa7\xd9\x39\xc4\x13\xfa\xb1\x9b\x5f\x5d\x81\x1c\xd1\x85\x1b\x2e\x6e\x4e\x31\x20\x1e\x73\xe7\x83\x0f\xaf\xe8\xd0\xc7\xcb\x8d\xc5\x13\xf2\xe8\x13\x52\x3c\xe5\xb7\x6e\x76\xe8\xc2\x80\x2e\xa5\xd8\xfb\x2e\xbb\x01\x43\xec\xaf\x67\x17\x72\x97\x49\xef\xe4\x27\x97\xf0\x29\x8f\x0e\x4f\xed\x03\xf1\xf4\x79\x11\x19\x5c\x37\x31\x1f\x40\xb3\xf7\x11\xde\x7c\x1e\xe3\x35\x63\x76\x29\xcf\xbe\x27\x8e\x02\x3e\xf4\xd3\x75\x20\x0f\xef\xe3\xc9\x9f\xfd\x43\x81\xe0\x4b\xfc\xc4\x72\xc4\x35\xb9\x62\xf1\x59\xe0\x1c\x07\x7f\xa2\xaf\x5b\x62\x5d\xae\xc7\xc9\xa7\xb1\xc0\xe0\x89\xfa\x78\xcd\xae\x40\xa2\xc7\xa5\xc7\x82\x72\xfc\x12\x67\x24\x37\x4d\xac\x8f\x17\xef\x12\x96\xac\x3f\xdc\x2d\x3b\x64\xfd\x42\x85\xe6\x47\x45\x89\x5e\xde\xc6\x78\xfe\x98\xc4\x27\x76\xba\xce\xc1\xa7\xd1\x2d\x98\x21\x22\xc5\x45\xf1\x1f\xd7\x67\x7a\xa1\xf5\x53\x9c\xa6\xf8\x46\xd1\xfa\x18\x06\x4f\x89\xd2\x9f\x8c\xd9\xd1\xa1\x3b\xc6\x7f\xdd\x92\xe5\x7e\xdd\x10\xb3\xef\xef\x75\x2f\x07\xb8\xfc\xb8\xea\x63\x94\xc6\x6e\x9a\x70\x74\x8f\xc2\xdc\x00\x1f\xd0\xfd\x2f\xce\x4c\xf2\x29\x77\x21\xfb\x6e\xc2\x25\xce\x8b\xde\xcf\x31\x9f\x19\xb3\xb5\x40\xab\x57\x76\xcf\x8d\x80\x6c\xb1\x35\xfa\x8b\xac\x44\x85\x27\xde\x42\xb6\x4f\x05\xf6\xd2\xd6\x7a\x67\xb1\xe7\xc6\x70\x65\x0f\xd0\x2b\x70\x75\xc0\x5f\x52\x55\x05\xc4\xdf\x5b\x23\xda\x16\xda\x30\xb9\xd9\x36\x52\x54\x05\xa4\x2a\x9b\x5d\x25\xd5\x1a\x2f\x3b\x0b\xa5\x2d\x1a\xb9\x91\x56\x54\xb0\x1a\x24\xf8\xa0\x92\xa2\x25\xb2\x8d\x30\x65\xcd\x95\xe5\x2f\xb2\x91\xf6\x50\xb0\x95\xb4\x8a\x38\x57\xda\x80\x63\xcb\x8d\x95\xe5\xae\xe1\x06\xdb\x9d\xd9\xea\x56\x80\xab\x0a\x4a\x2b\xa9\x56\x46\xaa\xb5\xd8\x08\x65\x9f\x21\x15\x94\x86\xf8\x22\x94\x45\x5b\xf3\xa6\x21\x29\xc6\x77\xb6\xd6\x86\xfc\xa1\xd4\xdb\x83\x91\xeb\xda\xa2\xd6\x4d\x25\x4c\x8b\x17\x81\x46\xf2\x97\x46\xdc\xa5\xd4\x01\x65\xc3\xe5\xa6\x40\xc5\x37\x7c\x2d\x16\x94\xb6\xb5\x30\x8c\xd6\xee\xee\xb0\xaf\x05\x3d\x91\x1e\x57\xe0\xa5\x95\x5a\x51\x8c\x52\x2b\x6b\x78\x69\x0b\x58\x6d\xec\x77\xe8\x5e\xb6\xa2\x00\x37\xb2\xa5\x42\x56\x46\x6f\x0a\x46\x75\xea\x15\xad\x48\x45\x38\x25\xee\x2c\x54\x35\x3e\x5c\x44\x9b\xe5\x7f\xd7\x8a\xef\x84\xa8\x04\x6f\xa4\x5a\xb7\x04\xa6\x88\xef\xcb\xcf\xec\xbf\x00\x00\x00\xff\xff\xd2\xff\xdf\xa6\x2e\x04\x00\x00")
 
 func licenseBytes() ([]byte, error) {
 	return bindataRead(
@@ -192,12 +193,12 @@ func license() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "LICENSE", size: 1070, mode: os.FileMode(420), modTime: time.Unix(1515803654, 0)}
+	info := bindataFileInfo{name: "LICENSE", size: 1070, mode: os.FileMode(420), modTime: time.Unix(1523961533, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
-var _readmeMd = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\xac\x94\x41\x6b\xd4\x40\x14\xc7\xef\xf9\x14\x53\x16\xc4\x3d\x64\x82\x57\x61\x29\xba\x5d\xac\xa0\x3d\x6c\xf1\x62\x10\x79\xc9\x3c\x93\xa1\x49\x66\x79\x6f\xb2\x45\x97\x42\x51\xc1\xa3\x07\xa1\xe0\x87\xd0\x9b\xe0\xc5\x6f\x53\x6b\x3f\x86\xcc\x24\xb8\xe9\xda\x66\x77\x4b\x8f\x9b\xbc\xf9\xe5\x37\xff\xf7\xde\x0e\xc4\x62\x21\x0f\xa0\xc4\x93\x93\x20\xde\x89\x1f\xd7\xba\x50\xe2\xd0\x82\xad\xf9\xd5\xfd\xdc\xda\x19\x3f\x8c\x22\x4b\x30\xd7\x1c\xa6\x5a\x1a\xca\xa2\xc5\x42\xbe\x60\xa4\xca\x1f\x8a\xfe\x1d\x97\x3c\xcf\x76\x13\x82\x2a\xcd\x47\x25\xb0\x45\x1a\x6e\x49\x18\x8a\x78\x27\x7e\x62\xc4\x14\x67\x86\xac\x18\x03\xa9\x25\x21\x33\xe4\x1f\xa7\x40\x4a\xa6\xa6\x8c\x12\x50\x19\x46\x99\xb6\x79\x9d\xf8\x07\x37\x51\x7b\x18\xcd\xcf\x4d\x20\xc2\xb9\xed\x99\xb4\x2e\xb1\xb2\x60\xb5\xa9\xba\x58\x65\x52\x7f\xb1\xf5\xa0\x5d\xf6\xd9\xba\xb0\x5a\xb1\x2d\x01\x3e\xa4\xb1\x99\x23\x41\x86\xff\x75\x2a\xf5\x2f\x8a\x82\xa5\x36\xfe\x76\xdc\x22\x6f\xc2\x35\x31\xf6\xf6\xee\x0a\xb3\x9f\xb6\xc2\xf0\xfd\xd4\x76\xbf\x4e\x84\x66\xae\xb1\x23\xaa\xcb\x4c\x72\xae\xb1\x50\x5d\x6c\x53\xd5\x37\x61\xdd\x6e\xae\xcd\xaa\xe5\x79\x8f\x42\xa7\x58\x31\xae\x33\x68\xcb\xee\x4e\x21\x29\x4c\x12\x35\x79\x44\xcf\x9e\x8e\x27\x07\x87\x13\xef\x33\xc5\x02\x61\xbd\x0f\x35\x65\xbd\x4b\x57\x40\x82\xc5\xa8\x05\x6e\x67\xd7\xe2\x9b\x88\xd8\x02\x09\x9b\x6b\x16\x6e\x72\x96\xd3\xe9\x31\x7e\x4e\xd8\xc3\x5c\x9d\xff\x70\xcd\x48\xa3\x2b\xe8\x7b\xee\xe4\x68\x75\xf7\x36\x72\xf1\x0a\x6f\x0c\x1d\x6d\xa2\xe0\xea\xee\x5e\xc1\x63\x87\x41\x10\xff\xf9\x7e\x7a\xfe\xeb\xcb\xf9\xcf\x6f\x17\x67\x9f\x6e\xdd\xed\xe9\xe4\xd1\xde\xf3\xc9\xeb\x97\xfb\xb2\x54\xc3\x20\x18\x0c\xdc\xb6\x52\x06\xef\x90\x58\xb8\x9d\x12\x56\x97\x18\xb8\xbf\xdd\xeb\x5e\x2c\xbf\xeb\xf2\x4e\x73\x20\xcb\x32\x47\x32\x47\x35\xcc\x66\x7d\x16\x2b\x43\xba\xed\x71\xe7\x2a\x7e\x7f\x7e\x7f\x79\xfa\xe1\xf2\xc7\xc7\x8b\xb3\xaf\x41\xf0\x40\x8a\xf8\x9a\x14\xde\x42\x95\x1d\x63\x55\x82\x8e\x72\x73\x1c\x5a\x13\x82\x52\xa1\x6f\x53\xa8\xab\xb0\xa9\x0c\x09\x41\x75\xaf\x73\x4b\xc0\x30\xf8\x1b\x00\x00\xff\xff\x4a\x8b\x3d\x60\xac\x06\x00\x00")
+var _readmeMd = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\xac\x94\xc1\x6a\xdb\x4c\x10\xc7\xef\x7a\x8a\x0d\x86\x8f\xcf\x07\xad\xe8\xb5\x60\x42\xeb\x98\x26\xd0\xe6\xe0\xd0\x4b\x45\x29\xa3\xdd\x89\xb4\x44\xd2\x9a\x99\x95\x43\x6b\x02\xbd\xf5\x01\x0a\x7d\x8b\xf6\xdc\x4b\xdf\x26\xb4\xaf\x51\x76\x25\x6a\xc5\x4d\x64\x2b\xf4\x68\x69\xe6\xa7\xdf\xfe\x67\xd6\x13\xb1\xd9\xc8\x73\xa8\xf0\xe6\x26\x4a\x8f\xd2\xe7\x8d\x29\xb5\xb8\x70\xe0\x1a\x7e\xfb\x7f\xe1\xdc\x8a\x9f\x26\x89\x23\x58\x1b\x8e\x95\x91\x96\xf2\x64\xb3\x91\xaf\x19\xa9\x0e\x4d\xc9\x9f\x76\xc9\xeb\xfc\x38\x23\xa8\x55\x31\xab\x80\x1d\xd2\x74\x24\x61\x2a\xd2\xa3\xf4\x85\x15\x4b\x5c\x59\x72\x62\x0e\xa4\xb7\x84\xdc\x52\x78\xac\x80\xb4\x54\xb6\x4a\x32\xd0\x39\x26\xb9\x71\x45\x93\x85\x07\x0f\x51\x07\x18\xed\xcf\x43\x20\xc2\xbb\x9d\x58\xd5\x54\x58\x3b\x70\xc6\xd6\x7d\xac\xb6\x2a\x1c\x6c\x3f\xe8\x98\x43\xb6\x3e\xac\x4e\x6c\x24\x20\x84\x34\xb7\x6b\x24\xc8\xf1\xaf\x49\xa9\xf0\xa2\x2c\x59\x1a\x1b\x4e\xc7\x1d\xf2\x21\x5c\x1b\xe3\xe0\xec\xee\x30\x87\x69\x3b\x8c\x30\x4f\xe3\x4e\x9b\x4c\x18\xe6\x06\x7b\xa2\xa6\xca\x25\x17\x06\x4b\xdd\xc7\xb6\x55\x83\x1b\x56\x42\x86\xe5\xec\xcc\x17\xf6\x27\xbb\x37\xb7\x8e\x1d\x9c\x4a\xa3\xb0\x66\xdc\x67\xd3\x95\x0d\xe9\x8c\x53\xc8\x4a\x9b\x25\x6d\x36\xc9\xcb\xb3\xf9\xe2\xfc\x62\x11\x7c\x96\x58\x22\xec\xf7\xa1\xb6\xec\x80\x78\x3a\xe0\x38\xbb\x0e\xdf\x46\xc4\x0e\x48\xb8\xc2\xb0\xf0\x5b\xb4\xdd\xd4\x80\x09\x3b\xc3\x01\xe6\xeb\xc2\x87\x1b\x46\x9a\xdd\x41\xff\xe7\x3b\x67\xbb\xf7\xf0\x20\x97\xa0\x70\x69\xe9\xea\x10\x05\x5f\xf7\xef\x15\x02\x76\x1a\x45\xe9\xaf\x6f\x1f\x6f\x7f\x7c\xbe\xfd\xfe\xf5\xe7\x97\x4f\x8f\x9e\xf6\x72\xf1\xec\xe4\xd5\xe2\xdd\x9b\x53\x59\xe9\x69\x14\x4d\x26\xfe\xe6\x52\x0e\x1f\x90\x58\xf8\xfb\x25\x9c\xa9\x30\xf2\x7f\xc1\xf7\xbd\xd8\x7e\xd7\xe7\xad\x0a\x20\xc7\xb2\x40\xb2\x57\x0d\xac\x56\x43\x16\x3b\x4b\x3a\xb6\xdd\xbb\x8a\x25\x5e\x22\x61\xad\x30\x8a\x9e\x48\x91\xde\x13\xc1\x7b\xa8\xf3\x6b\xac\x2b\x30\x49\x61\xaf\x63\x67\x63\xd0\x3a\x0e\x33\x8a\x4d\x1d\xb7\x95\x31\x21\xe8\xfe\x59\x1e\x09\x98\x46\xbf\x03\x00\x00\xff\xff\x1c\x7d\xf9\x8a\xb5\x06\x00\x00")
 
 func readmeMdBytes() ([]byte, error) {
 	return bindataRead(
@@ -212,7 +213,27 @@ func readmeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "README.md", size: 1708, mode: os.FileMode(420), modTime: time.Unix(1515807899, 0)}
+	info := bindataFileInfo{name: "README.md", size: 1717, mode: os.FileMode(420), modTime: time.Unix(1523952709, 0)}
+	a := &asset{bytes: bytes, info: info}
+	return a, nil
+}
+
+var _readme_zhMd = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\xac\x94\xc1\x6a\xdb\x40\x10\x86\xef\x7a\x8a\x0d\x86\x52\x1f\x24\xd1\x6b\xc1\x04\xea\x86\x36\x50\x72\x70\xe8\xc9\xf4\x30\x5a\x4d\x56\x4b\x56\xbb\x66\x66\xe5\xd0\x9a\xbc\x7b\xd9\x91\xa8\x15\x37\x91\xad\xd2\xa3\xa5\x99\x4f\xdf\xfe\x33\xeb\x85\x3a\x1c\x8a\x3b\x68\xf1\xf9\x39\xdb\x5e\x6d\x3f\x75\xd6\xd5\xea\x3e\x42\xec\xf8\xc7\xfb\x26\xc6\x1d\x7f\x2c\xcb\x48\xb0\xb7\x9c\x6b\x5b\x04\x32\xe5\xe1\x50\x7c\x67\x24\x2f\x4d\xe5\x9f\xf6\x82\xf7\xe6\xba\x22\xf0\xba\x59\xb5\xc0\x11\x69\x39\x93\xb0\x54\xdb\xab\xed\x97\xa0\x36\xb8\x0b\x14\xd5\x1a\xa8\x3e\x12\x4c\x20\x79\xac\x81\xea\x42\x87\xb6\xac\xa0\x36\x58\x1a\x1b\x9b\xae\x92\x07\x6f\x51\x27\x18\xfd\xcf\x4b\x20\x2a\xb9\x7d\x0e\xba\x6b\xd1\x47\x88\x36\xf8\x31\xb6\x0e\x5a\x0e\x76\x1e\x74\xcd\x92\x6d\x0a\x6b\x10\x9b\x09\x90\x90\xd6\x61\x8f\x04\x06\xff\x9a\x94\x96\x17\xce\x71\x61\x83\x9c\x8e\x07\xe4\x5b\xb8\x3e\xc6\xc9\xd9\xbd\x60\x4e\xd3\x4e\x18\x32\x4f\x1b\xbf\x76\x95\xb2\xcc\x1d\x8e\x44\x6d\x6b\x0a\x6e\x2c\xba\x7a\x8c\xed\xab\x26\x37\xcc\x41\x85\x6e\x75\x9b\x0a\xc7\x93\x3d\x9b\xdb\xc0\x16\x27\x67\x35\x7a\xc6\x73\x36\x43\xd9\x94\xce\x3c\x85\xca\x85\xaa\xec\xb3\x29\xbf\xdd\xae\x6f\xee\xee\x6f\xc4\x67\x83\x0e\xe1\xbc\x0f\xf5\x65\x17\xc4\x33\x00\xe7\xd9\x0d\xf8\x3e\x22\x8e\x40\x2a\x36\x96\x55\xda\xa2\xe3\xa6\x0a\x46\x76\x86\x05\x96\xea\xe4\xc3\x1d\x23\xad\x5e\xa0\xdf\xa5\xce\xd5\xe9\x3d\xbc\xc8\x45\x14\x1e\x02\x3d\x5e\xa2\x90\xea\xfe\xbf\x82\x60\x97\x59\xb6\x58\xa4\x4b\x46\x06\x7e\x21\xb1\x4a\x57\x41\x45\xdb\x62\x96\xfe\x2d\x5f\x7b\x71\x8c\x3c\x45\xa3\x1b\xa0\xc8\x45\x83\x14\x1e\x3b\xd8\xed\xa6\xbe\x78\xb2\x4f\x73\xdb\x93\xab\xda\xe0\x03\x12\x7a\x8d\x59\xf6\xa1\x50\xdb\x57\xa6\xff\x13\xbc\x79\x42\xdf\x82\x2d\x9b\xf0\x94\xc7\x90\x43\x5d\xe7\x12\x67\x6e\x7d\xde\x57\xe6\x84\x50\x8f\xcf\xf2\x8f\x80\x65\xf6\x3b\x00\x00\xff\xff\x73\x95\x8b\xd5\x60\x06\x00\x00")
+
+func readme_zhMdBytes() ([]byte, error) {
+	return bindataRead(
+		_readme_zhMd,
+		"README_ZH.md",
+	)
+}
+
+func readme_zhMd() (*asset, error) {
+	bytes, err := readme_zhMdBytes()
+	if err != nil {
+		return nil, err
+	}
+
+	info := bindataFileInfo{name: "README_ZH.md", size: 1632, mode: os.FileMode(420), modTime: time.Unix(1523961559, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -277,7 +298,7 @@ func exampleGo() (*asset, error) {
 	return a, nil
 }
 
-var _example_testGo = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\x2c\x8d\xc1\x4a\xc4\x40\x10\x44\xcf\xdd\x5f\xd1\xcc\x69\x46\x86\x04\xd1\x93\xe0\x41\xc4\xab\x08\xd9\x1f\xe8\xcc\xb4\x49\x74\x27\xbd\x66\x3a\xca\x22\xfb\xef\x92\xb8\xa7\x7a\x50\xbc\xaa\x13\xa7\x4f\x1e\x84\x0a\x4f\x33\xe2\x54\x4e\xba\x18\x79\x04\x67\x52\x6d\x9a\x07\x87\x08\x0d\xb9\x61\xb2\x71\xed\x9b\xa4\xa5\xad\x85\x17\x3b\x57\x5b\x44\xac\xb6\x83\x26\x9d\xbf\xe5\xdc\xfe\x87\xc3\x80\xf8\xbe\xce\x89\x0e\x52\xad\x1b\xf5\xe7\x6d\xd1\x0f\x49\xf6\xca\x45\xbc\xd1\xcd\x75\xb6\x39\x04\xfa\x45\x78\xde\x25\xbf\x9f\x11\xe7\xec\x22\x59\xa4\xcd\xf7\x7b\x0f\x4c\x0f\x8f\x74\x87\x00\xfd\x06\xb7\x08\x90\x36\x78\xca\xd9\x73\xa4\x3e\x20\x40\xa7\x3e\x45\xea\x46\x5d\x8f\xf9\xe5\x6b\xe5\x63\xa4\xfb\x80\x70\x09\x78\xc1\xbf\x00\x00\x00\xff\xff\x74\x2d\x22\xbc\xde\x00\x00\x00")
+var _example_testGo = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\x6c\x8e\xcf\x4a\xc4\x30\x10\x87\xcf\x33\x4f\x31\xf4\x94\x48\x68\x10\x3d\x09\x1e\x44\xbc\x8a\xd0\x7d\x81\x69\x12\xdb\xea\x26\x53\x9b\xa9\xcb\x22\xfb\xee\xd2\xae\x47\x4f\xf3\x31\xff\x7e\xdf\xcc\xe1\x93\x87\x44\x99\xa7\x82\x38\xe5\x59\x16\x25\x83\xd0\x68\xaa\x3a\x95\xa1\x41\x84\x96\x9a\x61\xd2\x71\xed\xdb\x20\xd9\xd7\xcc\x8b\x9e\xab\x2e\x29\x69\xf5\x83\x04\x29\xdf\xe9\xec\xaf\xa5\x41\x8b\xe8\x3d\x1d\x52\xd5\x6e\x94\xd3\xdb\x22\x1f\x29\xe8\x2b\xe7\x44\xdb\x47\xaa\xa3\x9c\x68\xbe\x76\xa9\x70\x4e\xf8\xbe\x96\xf0\xdf\xbe\x51\xba\xf9\x93\x68\x0f\x96\x7e\x10\x9e\xf7\x08\xb3\xab\x11\xc7\xd8\x38\x52\x47\xdb\xbd\xd9\xe7\xc0\xf4\xf0\x48\x77\x08\xd0\x6f\x70\x8b\x00\x61\x83\xa7\x18\x0d\x3b\xea\x2d\x02\x74\x62\x82\xa3\x6e\x94\xf5\x18\x5f\xbe\x56\x3e\x3a\xba\xb7\x08\x17\x8b\x17\xfc\x0d\x00\x00\xff\xff\xa9\x52\x7e\x20\x0c\x01\x00\x00")
 
 func example_testGoBytes() ([]byte, error) {
 	return bindataRead(
@@ -292,7 +313,7 @@ func example_testGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "example_test.go", size: 222, mode: os.FileMode(420), modTime: time.Unix(1515753271, 0)}
+	info := bindataFileInfo{name: "example_test.go", size: 268, mode: os.FileMode(420), modTime: time.Unix(1523961527, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -312,7 +333,7 @@ func vendorGithubComJtoldsGlsLicense() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/LICENSE", size: 1063, mode: os.FileMode(420), modTime: time.Unix(1425224634, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/LICENSE", size: 1063, mode: os.FileMode(420), modTime: time.Unix(1523410207, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -332,7 +353,7 @@ func vendorGithubComJtoldsGlsReadmeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/README.md", size: 3565, mode: os.FileMode(420), modTime: time.Unix(1459962210, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/README.md", size: 3565, mode: os.FileMode(420), modTime: time.Unix(1523410207, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -352,7 +373,7 @@ func vendorGithubComJtoldsGlsContextGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/context.go", size: 4212, mode: os.FileMode(420), modTime: time.Unix(1490450536, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/context.go", size: 4212, mode: os.FileMode(420), modTime: time.Unix(1523410207, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -372,7 +393,7 @@ func vendorGithubComJtoldsGlsGen_symGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/gen_sym.go", size: 380, mode: os.FileMode(420), modTime: time.Unix(1490450536, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/gen_sym.go", size: 380, mode: os.FileMode(420), modTime: time.Unix(1523410207, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -392,7 +413,7 @@ func vendorGithubComJtoldsGlsGidGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/gid.go", size: 699, mode: os.FileMode(420), modTime: time.Unix(1490450536, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/gid.go", size: 699, mode: os.FileMode(420), modTime: time.Unix(1523410207, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -412,7 +433,7 @@ func vendorGithubComJtoldsGlsId_poolGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/id_pool.go", size: 633, mode: os.FileMode(420), modTime: time.Unix(1425224634, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/id_pool.go", size: 633, mode: os.FileMode(420), modTime: time.Unix(1523410207, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -432,7 +453,7 @@ func vendorGithubComJtoldsGlsStack_tagsGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/stack_tags.go", size: 3818, mode: os.FileMode(420), modTime: time.Unix(1508649028, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/stack_tags.go", size: 3818, mode: os.FileMode(420), modTime: time.Unix(1523410207, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -452,7 +473,7 @@ func vendorGithubComJtoldsGlsStack_tags_jsGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/stack_tags_js.go", size: 1492, mode: os.FileMode(420), modTime: time.Unix(1508649028, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/stack_tags_js.go", size: 1492, mode: os.FileMode(420), modTime: time.Unix(1523410207, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -472,7 +493,7 @@ func vendorGithubComJtoldsGlsStack_tags_mainGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/stack_tags_main.go", size: 556, mode: os.FileMode(420), modTime: time.Unix(1508649028, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/jtolds/gls/stack_tags_main.go", size: 556, mode: os.FileMode(420), modTime: time.Unix(1523410207, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -492,7 +513,7 @@ func vendorGithubComSmartystreetsAssertionsContributingMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/CONTRIBUTING.md", size: 1948, mode: os.FileMode(420), modTime: time.Unix(1459962213, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/CONTRIBUTING.md", size: 1948, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -512,7 +533,7 @@ func vendorGithubComSmartystreetsAssertionsLicenseMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/LICENSE.md", size: 1297, mode: os.FileMode(420), modTime: time.Unix(1459962213, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/LICENSE.md", size: 1297, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -532,7 +553,7 @@ func vendorGithubComSmartystreetsAssertionsReadmeMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/README.md", size: 17884, mode: os.FileMode(420), modTime: time.Unix(1459962213, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/README.md", size: 17884, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -552,7 +573,7 @@ func vendorGithubComSmartystreetsAssertionsCollectionsGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/collections.go", size: 7562, mode: os.FileMode(420), modTime: time.Unix(1459962213, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/collections.go", size: 7562, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -572,7 +593,7 @@ func vendorGithubComSmartystreetsAssertionsDocGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/doc.go", size: 4287, mode: os.FileMode(420), modTime: time.Unix(1508649038, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/doc.go", size: 4287, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -592,7 +613,7 @@ func vendorGithubComSmartystreetsAssertionsEqual_methodGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/equal_method.go", size: 1906, mode: os.FileMode(420), modTime: time.Unix(1508649038, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/equal_method.go", size: 1906, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -612,7 +633,7 @@ func vendorGithubComSmartystreetsAssertionsEqualityGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/equality.go", size: 9912, mode: os.FileMode(420), modTime: time.Unix(1508649038, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/equality.go", size: 9912, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -632,7 +653,7 @@ func vendorGithubComSmartystreetsAssertionsFilterGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/filter.go", size: 835, mode: os.FileMode(420), modTime: time.Unix(1508649038, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/filter.go", size: 835, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -652,7 +673,7 @@ func vendorGithubComSmartystreetsAssertionsInternalGoRenderLicense() (*asset, er
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/go-render/LICENSE", size: 1563, mode: os.FileMode(420), modTime: time.Unix(1459962213, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/go-render/LICENSE", size: 1563, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -672,7 +693,7 @@ func vendorGithubComSmartystreetsAssertionsInternalGoRenderRenderRenderGo() (*as
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/go-render/render/render.go", size: 10586, mode: os.FileMode(420), modTime: time.Unix(1459962213, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/go-render/render/render.go", size: 10586, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -692,7 +713,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersLicense() (*asset
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/LICENSE", size: 11358, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/LICENSE", size: 11358, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -712,7 +733,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersReadmeMd() (*asse
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/README.md", size: 2027, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/README.md", size: 2027, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -732,7 +753,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersAny_ofGo() (*asse
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/any_of.go", size: 2655, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/any_of.go", size: 2655, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -752,7 +773,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersContainsGo() (*as
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/contains.go", size: 1755, mode: os.FileMode(420), modTime: time.Unix(1490450539, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/contains.go", size: 1755, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -772,7 +793,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersDeep_equalsGo() (
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/deep_equals.go", size: 2384, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/deep_equals.go", size: 2384, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -792,7 +813,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersEqualsGo() (*asse
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/equals.go", size: 12751, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/equals.go", size: 12751, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -812,7 +833,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersGreater_or_equalG
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/greater_or_equal.go", size: 1389, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/greater_or_equal.go", size: 1389, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -832,7 +853,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersGreater_thanGo() 
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/greater_than.go", size: 1358, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/greater_than.go", size: 1358, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -852,7 +873,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersLess_or_equalGo()
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/less_or_equal.go", size: 1478, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/less_or_equal.go", size: 1478, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -872,7 +893,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersLess_thanGo() (*a
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/less_than.go", size: 3660, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/less_than.go", size: 3660, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -892,7 +913,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersMatcherGo() (*ass
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/matcher.go", size: 3693, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/matcher.go", size: 3693, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -912,7 +933,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersNotGo() (*asset, 
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/not.go", size: 1456, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/not.go", size: 1456, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -932,7 +953,7 @@ func vendorGithubComSmartystreetsAssertionsInternalOglematchersTransform_descrip
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/transform_description.go", size: 1261, mode: os.FileMode(420), modTime: time.Unix(1490450539, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/internal/oglematchers/transform_description.go", size: 1261, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -952,7 +973,7 @@ func vendorGithubComSmartystreetsAssertionsMessagesGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/messages.go", size: 7090, mode: os.FileMode(420), modTime: time.Unix(1508649038, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/messages.go", size: 7090, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -972,7 +993,7 @@ func vendorGithubComSmartystreetsAssertionsPanicGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/panic.go", size: 2527, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/panic.go", size: 2527, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -992,7 +1013,7 @@ func vendorGithubComSmartystreetsAssertionsQuantityGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/quantity.go", size: 4971, mode: os.FileMode(420), modTime: time.Unix(1459962213, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/quantity.go", size: 4971, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1012,7 +1033,7 @@ func vendorGithubComSmartystreetsAssertionsSerializerGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/serializer.go", size: 1879, mode: os.FileMode(420), modTime: time.Unix(1508649038, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/serializer.go", size: 1879, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1032,7 +1053,7 @@ func vendorGithubComSmartystreetsAssertionsStringsGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/strings.go", size: 7021, mode: os.FileMode(420), modTime: time.Unix(1459962213, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/strings.go", size: 7021, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1052,7 +1073,7 @@ func vendorGithubComSmartystreetsAssertionsTimeGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/time.go", size: 6429, mode: os.FileMode(420), modTime: time.Unix(1440384556, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/time.go", size: 6429, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1072,7 +1093,7 @@ func vendorGithubComSmartystreetsAssertionsTypeGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/type.go", size: 3924, mode: os.FileMode(420), modTime: time.Unix(1508649038, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/assertions/type.go", size: 3924, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1092,7 +1113,7 @@ func vendorGithubComSmartystreetsGoconveyLicenseMd() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/LICENSE.md", size: 1285, mode: os.FileMode(420), modTime: time.Unix(1459962205, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/LICENSE.md", size: 1285, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1112,7 +1133,7 @@ func vendorGithubComSmartystreetsGoconveyConveyAssertionsGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/assertions.go", size: 3261, mode: os.FileMode(420), modTime: time.Unix(1508649007, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/assertions.go", size: 3261, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1132,7 +1153,7 @@ func vendorGithubComSmartystreetsGoconveyConveyContextGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/context.go", size: 7176, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/context.go", size: 7176, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1152,7 +1173,7 @@ func vendorGithubComSmartystreetsGoconveyConveyConveyGoconvey() (*asset, error) 
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/convey.goconvey", size: 188, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/convey.goconvey", size: 188, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1172,7 +1193,7 @@ func vendorGithubComSmartystreetsGoconveyConveyDiscoveryGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/discovery.go", size: 2451, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/discovery.go", size: 2451, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1192,7 +1213,7 @@ func vendorGithubComSmartystreetsGoconveyConveyDocGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/doc.go", size: 8674, mode: os.FileMode(420), modTime: time.Unix(1440381541, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/doc.go", size: 8674, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1212,7 +1233,7 @@ func vendorGithubComSmartystreetsGoconveyConveyGotestUtilsGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/gotest/utils.go", size: 831, mode: os.FileMode(420), modTime: time.Unix(1459962205, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/gotest/utils.go", size: 831, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1232,7 +1253,7 @@ func vendorGithubComSmartystreetsGoconveyConveyInitGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/init.go", size: 1986, mode: os.FileMode(420), modTime: time.Unix(1459962205, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/init.go", size: 1986, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1252,7 +1273,7 @@ func vendorGithubComSmartystreetsGoconveyConveyNilreporterGo() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/nilReporter.go", size: 642, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/nilReporter.go", size: 642, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1272,7 +1293,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingConsoleGo() (*asset, err
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/console.go", size: 210, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/console.go", size: 210, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1292,7 +1313,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingDocGo() (*asset, error) 
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/doc.go", size: 256, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/doc.go", size: 256, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1312,7 +1333,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingDotGo() (*asset, error) 
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/dot.go", size: 808, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/dot.go", size: 808, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1332,7 +1353,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingGotestGo() (*asset, erro
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/gotest.go", size: 674, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/gotest.go", size: 674, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1352,7 +1373,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingInitGo() (*asset, error)
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/init.go", size: 2222, mode: os.FileMode(420), modTime: time.Unix(1459962205, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/init.go", size: 2222, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1372,7 +1393,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingJsonGo() (*asset, error)
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/json.go", size: 2231, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/json.go", size: 2231, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1392,7 +1413,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingPrinterGo() (*asset, err
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/printer.go", size: 1208, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/printer.go", size: 1208, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1412,7 +1433,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingProblemsGo() (*asset, er
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/problems.go", size: 1747, mode: os.FileMode(420), modTime: time.Unix(1459962205, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/problems.go", size: 1747, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1432,7 +1453,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingReporterGo() (*asset, er
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/reporter.go", size: 1138, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/reporter.go", size: 1138, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1452,7 +1473,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingReportingGoconvey() (*as
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/reporting.goconvey", size: 20, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/reporting.goconvey", size: 20, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1472,7 +1493,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingReportsGo() (*asset, err
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/reports.go", size: 4235, mode: os.FileMode(420), modTime: time.Unix(1459962205, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/reports.go", size: 4235, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1492,7 +1513,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingStatisticsGo() (*asset, 
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/statistics.go", size: 2074, mode: os.FileMode(420), modTime: time.Unix(1459962205, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/statistics.go", size: 2074, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1512,7 +1533,7 @@ func vendorGithubComSmartystreetsGoconveyConveyReportingStoryGo() (*asset, error
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/story.go", size: 1691, mode: os.FileMode(420), modTime: time.Unix(1425224631, 0)}
+	info := bindataFileInfo{name: "vendor/github.com/smartystreets/goconvey/convey/reporting/story.go", size: 1691, mode: os.FileMode(420), modTime: time.Unix(1523410219, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1532,7 +1553,7 @@ func vendorVendorJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "vendor/vendor.json", size: 1649, mode: os.FileMode(420), modTime: time.Unix(1515803602, 0)}
+	info := bindataFileInfo{name: "vendor/vendor.json", size: 1649, mode: os.FileMode(420), modTime: time.Unix(1523410177, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1593,6 +1614,7 @@ var _bindata = map[string]func() (*asset, error){
 	".travis.yml": TravisYml,
 	"LICENSE": license,
 	"README.md": readmeMd,
+	"README_ZH.md": readme_zhMd,
 	"docs/.DS_Store": docsDs_store,
 	"docs/wiki.md": docsWikiMd,
 	"example.go": exampleGo,
@@ -1705,6 +1727,7 @@ var _bintree = &bintree{nil, map[string]*bintree{
 	".travis.yml": &bintree{TravisYml, map[string]*bintree{}},
 	"LICENSE": &bintree{license, map[string]*bintree{}},
 	"README.md": &bintree{readmeMd, map[string]*bintree{}},
+	"README_ZH.md": &bintree{readme_zhMd, map[string]*bintree{}},
 	"docs": &bintree{nil, map[string]*bintree{
 		".DS_Store": &bintree{docsDs_store, map[string]*bintree{}},
 		"wiki.md": &bintree{docsWikiMd, map[string]*bintree{}},
