@@ -17,6 +17,15 @@ go install
 
 `gpt -name=xxx -username=your-github-username`
 
+## Other
+
+Generate a binary go file from the files in the template folder.
+
+```shell
+go-bindata -prefix "template" template/...
+```
+
 # Reference
 
 1. [https://github.com/yangwenmai/how-to-add-badge-in-github-readme](https://github.com/yangwenmai/how-to-add-badge-in-github-readme)
+2. [https://github.com/jteeuwen/go-bindata](https://github.com/jteeuwen/go-bindata)

@@ -25,6 +25,15 @@ go install
 
 `gpt -name=xxx -username=your-github-username`
 
+## 其他
+
+将 template 文件夹中的文件生成二进制 go 文件。
+
+```shell
+go-bindata -prefix "template" template/...
+```
+
 # 参考资料
 
 1. [https://github.com/yangwenmai/how-to-add-badge-in-github-readme](https://github.com/yangwenmai/how-to-add-badge-in-github-readme)
+2. [https://github.com/jteeuwen/go-bindata](https://github.com/jteeuwen/go-bindata)
